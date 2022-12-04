@@ -1,0 +1,36 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Голосовое сообщение о функциях");
+        int buttonNumber = 5; // абонент выводит кнопку 5
+        int buttonNumber2 =2; // обратиться за помощью к Тимуру Соколову
+        switch (buttonNumber) {
+            case 1:
+                System.out.println("Вызвана услуга - Узнать баланс своего счета");
+                break;
+            case 2:
+                System.out.println("Вызвана услуга - Узнать максимально допустимый лимит долга");
+            case 3:
+                System.out.println("Вызвана услуга - Узнать дату ближайшего списания средств");
+                break;
+            case 4:
+                System.out.println("Вызвана услуга - Узнать остаток мобильного траффика на месяц");
+                break;
+            case 5:
+                System.out.println("Вызвана услуга - Обратиться к оператору");
+                int butterNumber2 = 5;// абонент нажал на кнопку 5
+                switch (butterNumber2) {
+                    case 1:
+                        System.out.println("Вызвана услуга - Обратиться к Гарри Поттеру");
+                        break;
+                    case 2:
+                        System.out.println("Вызвана услуга - Обратиться к Тимуру Соколову");
+                        break;}
+            default:
+                System.out.println("Не корректная кнопка. Нажмите другую");
+                break;
+
+                }
+
+
+        }
+    }
